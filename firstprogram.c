@@ -1,4 +1,4 @@
-ht#include <stdio.h>
+#include <stdio.h>
 intmain(void) {
   introduction = ("Hello!");
   char name [30];
