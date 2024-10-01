@@ -1,22 +1,27 @@
-print("Hello and welcome to your financial calculator!\n")
-income=float(input("how much do you make a month?:\n"))
-rent = input("how much is your rent?:\n")
-utilitties=input("How much is your utilitties?:\n")
-groceries=input("How much do your goceries cost?:\n")
-transp=input("What does your transportation cost?:\n")
-print("You make", income)
-savings = float(income)*float(0.2)
-expenses = (float(rent) + float(utilitties) + float(groceries) + float(transp))
-spending = float(income)-float(expenses)-float(savings)
-print("your expenses are", expenses)
+video 4:15
+print("Hello and welcom to your finacial calculator")
+income = float(input("hWhat is your montly income?:\n"))
+rent = float(input("What is your monthly rent?:\n"))
+utilitties = float(input("What is your monthly utilitties?:\n"))
+groceries = float(input("What is your monthly groceries?:\n"))
+transp = float(input("What is your monthly transportation cost?:\n"))
+savings = income * .2
+expenses = rent+utilitties+groceries+transp
+spending = income-expenses-savings
+prent = rent/income *100
+putilitties = utilitties/income *100
+pgroceries = groceries/income *100
+ptransp = transp/income *100
+psavings = savings/income *100
+pexpenses = expenses/income *100
+def percent
+
 print("your savings is", savings)
 print("your spending money is", spending)
 prent=(float(rent)/float(income))*100
 putilitties=(float(utilitties)/float(income))*100
 pgroceries=(float(groceries)/float(income))*100
 ptransp=(float(transp)/float(income))*100
-
-
 print("your rent takes up this percent of your income;", prent)
 print("your utilitties take up this percent of your income;", putilitties)
 print("your groceries take up this percent of your income;", pgroceries)
