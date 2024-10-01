@@ -1,7 +1,7 @@
 age = 20
-voter = no
-if age >= 18:
-    print("You are old enough to vote")
+voter = "yes"
+if age >= 18 and voter == "yes":
+    print("You are able to vote")
 elif age >= 16:
     print("You are old enough to drive")
 elif age >= 15:
